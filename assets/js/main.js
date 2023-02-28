@@ -1,12 +1,11 @@
  setTimeout(function(){
 	document.getElementById("preloaderIcon").remove()
 		
+	setTimeout(function(){
+		document.getElementById("wrapper").style["margin-top"]=0
+	},4000)
  },2000)
 
- setTimeout(function(){
-	document.getElementById("wrapper").style["margin-top:0"]
-		
- },6000)
  
  
 
